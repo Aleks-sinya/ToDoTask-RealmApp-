@@ -47,7 +47,6 @@ class StorageManager {
         }
     }
     
-    
     // MARK: - Tasks
     func save(_ task: Task, to taskList: TaskList) {
         write {

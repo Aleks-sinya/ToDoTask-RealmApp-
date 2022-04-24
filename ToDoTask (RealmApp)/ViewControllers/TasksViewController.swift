@@ -56,7 +56,7 @@ class TasksViewController: UITableViewController {
         return cell
     }
     
-    // MARK: - дз
+    // MARK: - Table View Data Source
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let task = indexPath.section == 0 ? currentTasks[indexPath.row] : completedTask[indexPath.row]
         

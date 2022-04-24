@@ -116,7 +116,7 @@ class TaskListViewController: UITableViewController {
 
 // MARK: - Extensions
 extension TaskListViewController {
-
+    
     private func showAlert(with taskList: TaskList? = nil, completion: (() -> Void)? = nil) {
         let title = taskList != nil ? "Edit List" : "New List"
         let alert = UIAlertController.createAlert(withTitle: title, andMessage: "Please set title for new task list")
